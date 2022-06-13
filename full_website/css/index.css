@@ -1,15 +1,6 @@
 /* BASE CSS */
 /*==========*/
-/* variables */
-:root {
-  --pink: #D50870;
-  --teal:	#66B2B2;
-  --twitter-blue: rgba(29,161,242,0.7);
-  --facebook-blue: rgba(59,89,152,0.7);
-  --starpages-purple: rgba(65,15,65,0.7);
-  --instagram-pink: rgba(228,51,134,0.7);
-  --linkedin-blue: rgba(42,113,174,0.7);
-}
+
 /* fonts */
 
 @font-face {
@@ -112,7 +103,7 @@ body {
 }
 
 .projects-1 {
-  /* background: url("../img/projects-1.jpg") no-repeat; */
+  background: url("../img/projects-1.jpg") no-repeat;
   background-size: cover;
   min-height: 100%;
 }
@@ -122,7 +113,7 @@ body {
 }
 
 .projects-2 {
-  /* background: url("../img/projects-2.jpg") no-repeat; */
+  background: url("../img/projects-1.jpg") no-repeat;
   background-size: cover;
   min-height: 100%;
 }
@@ -133,7 +124,7 @@ body {
 }
 
 .projects-3 {
-  /* background: url("../img/projects-3.jpg") no-repeat; */
+  background: url("../img/projects-1.jpg") no-repeat;
   background-size: cover;
   min-height: 100%;
 }
@@ -142,85 +133,12 @@ body {
   text-shadow: 2px 2px #000000;
 }
 
-.twitter {
-  transition: background-color 1s 0s;
-  transition: background 1.2s 0s;
-}
-
-.twitter:hover {
-  color: white;
-  background: url("../img/twitter.png") no-repeat, var(--twitter-blue);
-  background-position: 10% 0%;
-  background-size: 100px auto;
-  font-weight: bold;
-  transition: 1s;
-  left: 0;
-}
-.facebook {
-  transition: background-color 1s 0s;
-  transition: background-position 1.2s 0s;
-}
-
-.facebook:hover {
-  color: white;
-  background: url("../img/facebook.png") no-repeat, var(--facebook-blue);
-  background-position: 10% 0%;
-  background-size: 100px auto;
-  font-weight: bold;
-  transition: 1s;
-  left: 0;
-}
-
-.starpages {
-  transition: background-color 1s 0s;
-  transition: background 1.2s 0s;
-}
-
-.starpages:hover {
-  color: white;
-  background: url("../img/starpages.png") no-repeat, var(--starpages-purple);
-  background-position: 10% 0%;
-  background-size: 100px auto;
-  font-weight: bold;
-  transition: 1s;
-  left: 0;
-}
-
-.instagram {
-  transition: background-color 1s 0s;
-  transition: background 1.2s 0s;
-}
-
-.instagram:hover {
-  color: white;
-  background: url("../img/instagram.png") no-repeat,  var(--instagram-pink);
-  background-position: 10% 0%;
-  background-size: 100px auto;
-  font-weight: bold;
-  transition: 1s;
-  left: 0;
-}
-
-.linkedin {
-  transition: background-color 1s 0s;
-  transition: background 1.2s 0s;
-}
-
-.linkedin:hover {
-  color: white;
-  background: url("../img/linkedin.png") no-repeat, var(--linkedin-blue);
-  background-position: 10% 0%;
-  background-size: 100px auto;
-  font-weight: bold;
-  transition: 1s;
-  left: 0;
-}
 
  a.social {
   color: black;
 }
 a.social:hover {
-  color: white;
+  color: black;
 }
 
 iframe {
